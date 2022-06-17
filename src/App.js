@@ -20,7 +20,7 @@ function App() {
 
   useEffect(() => {
     checkEvenNo(counter);
-  }, []);
+  }, [counter]);
 
   const checkEvenNo = async (value) => { 
         const response = await fetch(`${API_URL}${value}`);
@@ -29,9 +29,8 @@ function App() {
     }
 
   const colorGreen = "bg-green shadow-lg shadow-green rounded py-1";
-  const colorPurple = "bg-purple shadow-lg shadow-purple rounded py-1";
-  const colorRed = "bg-red shadow-lg shadow-red rounded py-1";
-  const color = "bg-black shadow-lg shadow-black rounded py-1";
+  // const colorPurple = "bg-purple shadow-lg shadow-purple rounded py-1";
+  // const colorRed = "bg-red shadow-lg shadow-red rounded py-1";
 
   return (
     <div>
