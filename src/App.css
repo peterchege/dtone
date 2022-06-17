@@ -28,6 +28,25 @@
   color: #61dafb;
 }
 
+.bg-green {
+  background-color: green;
+}
+.shadow-green {
+  box-shadow: 5px 0px 25px green;
+}
+.bg-purple {
+  background-color: purple;
+}
+.shadow-purple {
+  box-shadow: 5px 0px 25px purple;
+}
+.bg-red {
+  background-color: red;
+}
+.shadow-red {
+  box-shadow: 5px 0px 25px red;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
